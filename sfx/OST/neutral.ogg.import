@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/neutral.ogg-68c21fb507edbdffc147a944661f23d1.oggstr"
+
+[deps]
+
+source_file="res://sfx/OST/neutral.ogg"
+dest_files=[ "res://.import/neutral.ogg-68c21fb507edbdffc147a944661f23d1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

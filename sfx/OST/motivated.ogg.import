@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/motivated.ogg-771f565b309bf0eb3e09577731eebf39.oggstr"
+
+[deps]
+
+source_file="res://sfx/OST/motivated.ogg"
+dest_files=[ "res://.import/motivated.ogg-771f565b309bf0eb3e09577731eebf39.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

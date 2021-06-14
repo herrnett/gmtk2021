@@ -1,0 +1,76 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://nodes/Item.gd" type="Script" id=2]
+[ext_resource path="res://gfx/objects (tiles)/Items.png" type="Texture" id=3]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ SubResource( 1 ) ],
+"loop": false,
+"name": "mask",
+"speed": 0.0
+}, {
+"frames": [ SubResource( 2 ) ],
+"loop": false,
+"name": "notebook",
+"speed": 0.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "nothing",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 3 ) ],
+"loop": false,
+"name": "hammer",
+"speed": 0.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="Animation" id=6]
+length = 1.6
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.8, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.705882 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Item" type="Node2D"]
+position = Vector2( 0, -8 )
+script = ExtResource( 2 )
+item_type = "Hammer"
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+modulate = Color( 1, 1, 1, 0.705882 )
+frames = SubResource( 4 )
+animation = "mask"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 5 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/move_item = SubResource( 6 )

@@ -1,0 +1,444 @@
+[gd_scene load_steps=73 format=2]
+
+[ext_resource path="res://gfx/logos/gmtk-logo-sheet.png" type="Texture" id=1]
+[ext_resource path="res://nodes/splash/Splash.gd" type="Script" id=2]
+[ext_resource path="res://fonts/pstp_verysmall.tres" type="DynamicFont" id=3]
+[ext_resource path="res://gfx/logos/logo.png" type="Texture" id=4]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 1 )
+region = Rect2( 194, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 1 )
+region = Rect2( 388, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 1 )
+region = Rect2( 582, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 1 )
+region = Rect2( 776, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 1 )
+region = Rect2( 970, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 1 )
+region = Rect2( 1164, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 1 )
+region = Rect2( 1358, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 1 )
+region = Rect2( 1552, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 1 )
+region = Rect2( 1746, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 1 )
+region = Rect2( 1940, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 1 )
+region = Rect2( 2134, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 1 )
+region = Rect2( 2328, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 1 )
+region = Rect2( 2522, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 1 )
+region = Rect2( 2716, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 1 )
+region = Rect2( 2910, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 1 )
+region = Rect2( 3104, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 1 )
+region = Rect2( 3298, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 1 )
+region = Rect2( 3492, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 1 )
+region = Rect2( 3686, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 1 )
+region = Rect2( 3880, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 1 )
+region = Rect2( 4074, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 1 )
+region = Rect2( 4268, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 1 )
+region = Rect2( 4462, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 1 )
+region = Rect2( 4656, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 1 )
+region = Rect2( 4850, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 1 )
+region = Rect2( 5044, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 1 )
+region = Rect2( 5238, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 1 )
+region = Rect2( 5432, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 1 )
+region = Rect2( 5626, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 1 )
+region = Rect2( 5820, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 1 )
+region = Rect2( 6014, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=33]
+atlas = ExtResource( 1 )
+region = Rect2( 6208, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=34]
+atlas = ExtResource( 1 )
+region = Rect2( 6402, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=35]
+atlas = ExtResource( 1 )
+region = Rect2( 6596, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=36]
+atlas = ExtResource( 1 )
+region = Rect2( 6790, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 1 )
+region = Rect2( 6984, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 1 )
+region = Rect2( 7178, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 1 )
+region = Rect2( 7372, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 1 )
+region = Rect2( 7566, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 1 )
+region = Rect2( 7760, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=42]
+atlas = ExtResource( 1 )
+region = Rect2( 7954, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=43]
+atlas = ExtResource( 1 )
+region = Rect2( 8148, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=44]
+atlas = ExtResource( 1 )
+region = Rect2( 8342, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=45]
+atlas = ExtResource( 1 )
+region = Rect2( 8536, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=46]
+atlas = ExtResource( 1 )
+region = Rect2( 8730, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=47]
+atlas = ExtResource( 1 )
+region = Rect2( 8924, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=48]
+atlas = ExtResource( 1 )
+region = Rect2( 9118, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=49]
+atlas = ExtResource( 1 )
+region = Rect2( 9312, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=50]
+atlas = ExtResource( 1 )
+region = Rect2( 9506, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=51]
+atlas = ExtResource( 1 )
+region = Rect2( 9700, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=52]
+atlas = ExtResource( 1 )
+region = Rect2( 9894, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=53]
+atlas = ExtResource( 1 )
+region = Rect2( 10088, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=54]
+atlas = ExtResource( 1 )
+region = Rect2( 10282, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=55]
+atlas = ExtResource( 1 )
+region = Rect2( 10476, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=56]
+atlas = ExtResource( 1 )
+region = Rect2( 10670, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=57]
+atlas = ExtResource( 1 )
+region = Rect2( 10864, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=58]
+atlas = ExtResource( 1 )
+region = Rect2( 11058, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=59]
+atlas = ExtResource( 1 )
+region = Rect2( 11252, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=60]
+atlas = ExtResource( 1 )
+region = Rect2( 11446, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=61]
+atlas = ExtResource( 1 )
+region = Rect2( 11640, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=62]
+atlas = ExtResource( 1 )
+region = Rect2( 11834, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=63]
+atlas = ExtResource( 1 )
+region = Rect2( 12028, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=64]
+atlas = ExtResource( 1 )
+region = Rect2( 12222, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=65]
+atlas = ExtResource( 1 )
+region = Rect2( 12416, 0, 194, 128 )
+
+[sub_resource type="AtlasTexture" id=66]
+atlas = ExtResource( 1 )
+region = Rect2( 12610, 0, 194, 128 )
+
+[sub_resource type="SpriteFrames" id=67]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ), SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ), SubResource( 52 ), SubResource( 53 ), SubResource( 54 ), SubResource( 55 ), SubResource( 56 ), SubResource( 57 ), SubResource( 58 ), SubResource( 59 ), SubResource( 60 ), SubResource( 61 ), SubResource( 62 ), SubResource( 63 ), SubResource( 64 ), SubResource( 65 ), SubResource( 66 ) ],
+"loop": false,
+"name": "default",
+"speed": 30.0
+} ]
+
+[sub_resource type="Animation" id=68]
+resource_name = "FadeLogo"
+length = 8.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Logo:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Pretitle:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1.3, 1.7, 3.6, 4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Pretitle2:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 4.3, 4.7, 6.6, 7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("JohnLogo:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 7.3, 7.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Pretitle3:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 8.4, 8.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Splash" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_left = -8.0
+margin_top = -8.0
+margin_right = 408.0
+margin_bottom = 232.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Logo" type="AnimatedSprite" parent="."]
+position = Vector2( 200, 112 )
+frames = SubResource( 67 )
+frame = 65
+playing = true
+
+[node name="Pretitle" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 64.0
+margin_right = 400.0
+margin_bottom = 168.0
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "[center]--Who To Blame--
+[color=#FBF236]LLlarsO (art)[/color]
+[color=#6ABE30]Shanzhai (code)[/color]
+[color=#BE1212]Yurgio (music)[/color]
+
+--Animated GMTK Game Jam Logo--
+PJBgamer[/center]"
+text = "--Who To Blame--
+LLlarsO (art)
+Shanzhai (code)
+Yurgio (music)
+
+--Animated GMTK Game Jam Logo--
+PJBgamer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pretitle2" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 64.0
+margin_right = 400.0
+margin_bottom = 168.0
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "[center](Very) Loosely based on
+
+Everyone Is John
+
+By
+
+Michael Sullivan[/center]"
+text = "(Very) Loosely based on
+
+Everyone Is John
+
+By
+
+Michael Sullivan"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="JohnLogo" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 200, 112 )
+texture = ExtResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/FadeLogo = SubResource( 68 )
+
+[node name="Pretitle3" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 106.0
+margin_right = 400.0
+margin_bottom = 168.0
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "[center]Press Space[/center]"
+text = "Press Space"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Filter" type="ColorRect" parent="."]
+margin_left = -8.0
+margin_top = -8.0
+margin_right = 408.0
+margin_bottom = 232.0
+color = Color( 0, 0, 0, 0.12549 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="animation_finished" from="Logo" to="." method="_on_Logo_animation_finished"]

@@ -1,15 +1,37 @@
-extends AudioStreamPlayer
+extends Node2D
 
-onready var tween = get_node("Tween")
 
-func fade_out():
-	# tween music volume down to 0
-	tween.interpolate_property(self, "volume_db", 6, -80, 5, Tween.TRANS_QUINT, Tween.EASE_OUT)
-	tween.start()
-	yield(tween, "tween_completed")
-	self.playing = false
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
 
-func fade_in():
-	self.playing = true
-	tween.interpolate_property(self, "volume_db", -80, 6, 4, Tween.TRANS_SINE, Tween.EASE_OUT)
-	tween.start()
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+func crossfade(to):
+	match to:
+		1:
+			$NeutralMusic.fade_in()
+			$AngryMusic.fade_out()
+			$HappyMusic.fade_out()
+			$MotivatingMusic.fade_out()
+		2:
+			$NeutralMusic.fade_out()
+			$AngryMusic.fade_in()
+			$HappyMusic.fade_out()
+			$MotivatingMusic.fade_out()
+		3:
+			$NeutralMusic.fade_out()
+			$AngryMusic.fade_out()
+			$HappyMusic.fade_in()
+			$MotivatingMusic.fade_out()
+		4:
+			$NeutralMusic.fade_out()
+			$AngryMusic.fade_out()
+			$HappyMusic.fade_out()
+			$MotivatingMusic.fade_in()
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
