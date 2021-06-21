@@ -1,23 +1,23 @@
 extends Node
 
 var time_stop = false
-var initial_sanity = 200.0
+var initial_sanity = 300.0
 var switchloss_amount = 10
 
 var personality = 1
 var current_sanity = initial_sanity
-var item_e = "Hammer"
+var item_e = "Nothing"
 var item_q = "Nothing"
 var item_x = "Nothing"
 
 ## DELETE ME LATER ##
-var has_angry = true
-var has_happy = true
-var has_motivated = true
+#var has_angry = true
+#var has_happy = true
+#var has_motivated = true
 
-#var has_angry = false
-#var has_happy = false
-#var has_motivated = false
+var has_angry = false
+var has_happy = false
+var has_motivated = false
 
 # return value used for visualization
 func sanityloss():

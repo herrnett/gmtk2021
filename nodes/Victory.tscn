@@ -13,80 +13,80 @@ atlas = ExtResource( 5 )
 region = Rect2( 0, 32, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=2]
-atlas = ExtResource( 5 )
-region = Rect2( 0, 288, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=3]
-atlas = ExtResource( 6 )
-region = Rect2( 0, 0, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=4]
-atlas = ExtResource( 6 )
-region = Rect2( 0, 32, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=5]
-atlas = ExtResource( 6 )
-region = Rect2( 0, 64, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=6]
-atlas = ExtResource( 6 )
-region = Rect2( 0, 96, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=7]
-atlas = ExtResource( 4 )
-region = Rect2( 0, 448, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=8]
-atlas = ExtResource( 4 )
-region = Rect2( 0, 480, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=9]
 atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=10]
+[sub_resource type="AtlasTexture" id=3]
 atlas = ExtResource( 5 )
-region = Rect2( 0, 0, 32, 32 )
+region = Rect2( 0, 256, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=11]
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 448, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 480, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=6]
 atlas = ExtResource( 5 )
 region = Rect2( 0, 96, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=12]
+[sub_resource type="AtlasTexture" id=7]
 atlas = ExtResource( 5 )
-region = Rect2( 0, 160, 32, 32 )
+region = Rect2( 0, 288, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=13]
-atlas = ExtResource( 5 )
-region = Rect2( 0, 128, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=14]
-atlas = ExtResource( 5 )
-region = Rect2( 0, 192, 32, 32 )
-
-[sub_resource type="AtlasTexture" id=15]
+[sub_resource type="AtlasTexture" id=8]
 atlas = ExtResource( 4 )
 region = Rect2( 0, 512, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=16]
+[sub_resource type="AtlasTexture" id=9]
 atlas = ExtResource( 4 )
 region = Rect2( 0, 544, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=17]
+[sub_resource type="AtlasTexture" id=10]
 atlas = ExtResource( 4 )
 region = Rect2( 0, 576, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=18]
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 160, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 128, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 192, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=15]
 atlas = ExtResource( 5 )
 region = Rect2( 0, 224, 32, 32 )
 
-[sub_resource type="AtlasTexture" id=19]
+[sub_resource type="AtlasTexture" id=16]
 atlas = ExtResource( 5 )
 region = Rect2( 0, 64, 32, 32 )
 
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 32, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 64, 32, 32 )
+
 [sub_resource type="AtlasTexture" id=20]
-atlas = ExtResource( 5 )
-region = Rect2( 0, 256, 32, 32 )
+atlas = ExtResource( 6 )
+region = Rect2( 0, 96, 32, 32 )
 
 [sub_resource type="SpriteFrames" id=21]
 animations = [ {
@@ -97,58 +97,58 @@ animations = [ {
 }, {
 "frames": [ SubResource( 2 ) ],
 "loop": false,
-"name": "motivated_jump",
+"name": "neutral_jump",
 "speed": 0.0
 }, {
-"frames": [ SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ) ],
-"loop": true,
-"name": "happy_walk",
-"speed": 6.0
+"frames": [ SubResource( 3 ) ],
+"loop": false,
+"name": "happy_jump",
+"speed": 0.0
 }, {
-"frames": [ SubResource( 7 ), SubResource( 8 ) ],
+"frames": [ SubResource( 4 ), SubResource( 5 ) ],
 "loop": true,
 "name": "angry_walk",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 9 ) ],
-"loop": false,
-"name": "neutral_jump",
-"speed": 0.0
-}, {
-"frames": [ SubResource( 10 ) ],
-"loop": false,
-"name": "neutral_stand",
-"speed": 0.0
-}, {
-"frames": [ SubResource( 11 ) ],
+"frames": [ SubResource( 6 ) ],
 "loop": false,
 "name": "motivated_stand",
 "speed": 0.0
 }, {
-"frames": [ SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 13 ) ],
-"loop": true,
-"name": "neutral_walk",
-"speed": 4.0
+"frames": [ SubResource( 7 ) ],
+"loop": false,
+"name": "motivated_jump",
+"speed": 0.0
 }, {
-"frames": [ SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ],
+"frames": [ SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
 "loop": true,
 "name": "motivated_walk",
 "speed": 10.0
 }, {
-"frames": [ SubResource( 18 ) ],
+"frames": [ SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 12 ) ],
+"loop": true,
+"name": "neutral_walk",
+"speed": 4.0
+}, {
+"frames": [ SubResource( 14 ) ],
+"loop": false,
+"name": "neutral_stand",
+"speed": 0.0
+}, {
+"frames": [ SubResource( 15 ) ],
 "loop": false,
 "name": "angry_jump",
 "speed": 0.0
 }, {
-"frames": [ SubResource( 19 ) ],
+"frames": [ SubResource( 16 ) ],
 "loop": false,
 "name": "happy_stand",
 "speed": 0.0
 }, {
-"frames": [ SubResource( 20 ) ],
-"loop": false,
-"name": "happy_jump",
-"speed": 0.0
+"frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": true,
+"name": "happy_walk",
+"speed": 6.0
 } ]
 
 [sub_resource type="Animation" id=22]
@@ -192,12 +192,8 @@ margin_right = 400.0
 margin_bottom = 96.0
 custom_fonts/normal_font = ExtResource( 2 )
 bbcode_enabled = true
-bbcode_text = "[center]Thanks for playing!
-
-Press space to reset.[/center]"
-text = "Thanks for playing!
-
-Press space to reset."
+bbcode_text = "[center]Thanks for playing![/center]"
+text = "Thanks for playing!"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -206,7 +202,7 @@ __meta__ = {
 position = Vector2( 416, 120 )
 frames = SubResource( 21 )
 animation = "neutral_walk"
-frame = 1
+frame = 2
 playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite"]
